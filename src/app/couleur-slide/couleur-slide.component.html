@@ -1,0 +1,10 @@
+  <pre>
+    Rouge <input [ngModel]="R"
+                 (ngModelChange) = "updateR($event)"
+                 class="R"
+                 type="range"
+                 min="0"
+                 max="100" />
+    Vert  <input [(ngModel)]="G" class="G" type="range" min="0" max="100" />
+    Bleu  <input [(ngModel)]="B" class="B" type="range" min="0" max="100" />
+  </pre>
